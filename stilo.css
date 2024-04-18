@@ -11,12 +11,7 @@ body {
 }
 
 /* Estilos do header */
-header {
-    background-color: #000000;
-    color: #fff;
-    padding: 20px 0;
 
-}
 
 header h1 {
     font-size: 24px;
@@ -24,6 +19,7 @@ header h1 {
 
 nav ul {
     list-style: none;
+    background-color: #141414;
 }
 
 nav ul li {
@@ -91,11 +87,28 @@ footer {
 .mexer:hover{
     transform: scale(1.0);
 }
-.container img{
-    border-radius: 100px;
+.container h1{
+font-size: 30px;
+    
+   
 }
 .galeria img{
     margin-right: 50px;
+    width: 100px;
+    height: 90px;
+    border-radius: 50%;
+    
+}
+.imagem{
+    text-align: center;
+    background-color: black;
+    margin: 0 0 0 0;
+    
+
 }
 
-
+.texto{
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0 0 0 0;
+}
